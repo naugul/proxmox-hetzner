@@ -66,7 +66,7 @@ get_system_inputs() {
     # Get user input for other configuration
     read -e -p "Enter your hostname : " -i "proxmox-example" HOSTNAME
     read -e -p "Enter your FQDN name : " -i "proxmox.example.com" FQDN
-    read -e -p "Enter your timezone : " -i "Europe/Istanbul" TIMEZONE
+    read -e -p "Enter your timezone : " -i "America/Argentina/Buenos_Aires" TIMEZONE
     read -e -p "Enter your email address: " -i "admin@example.com" EMAIL
     read -e -p "Enter your private subnet : " -i "192.168.26.0/24" PRIVATE_SUBNET
     read -e -p "Enter your System New root password: " NEW_ROOT_PASSWORD
@@ -84,7 +84,7 @@ get_system_inputs() {
     while [[ -z "$NEW_ROOT_PASSWORD" ]]; do
         # Print message in a new line
         echo ""
-        read -e -p "Enter your System New root password: " NEW_ROOT_PASSWORD
+        read -e -p "Enter your system NEW root password: " NEW_ROOT_PASSWORD
     done
 
     echo ""
