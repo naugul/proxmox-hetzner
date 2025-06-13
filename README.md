@@ -1,13 +1,13 @@
 # Proxmox on Hetzner Without Console Access
 
 <div align="center">
-  <img src="https://github.com/ariadata/proxmox-hetzner/raw/main/files/icons/proxmox.png" alt="Proxmox" height="64" /> 
-  <img src="https://github.com/ariadata/proxmox-hetzner/raw/main/files/icons/hetzner.png" alt="Hetzner" height="50" />
+  <img src="https://github.com/naugul/proxmox-hetzner/raw/main/files/icons/proxmox.png" alt="Proxmox" height="64" /> 
+  <img src="https://github.com/naugul/proxmox-hetzner/raw/main/files/icons/hetzner.png" alt="Hetzner" height="50" />
   <h3>Automated Installation for Hetzner Dedicated Servers</h3>
   
-  ![GitHub Stars](https://img.shields.io/github/stars/ariadata/proxmox-hetzner.svg)
-  ![GitHub Watchers](https://img.shields.io/github/watchers/ariadata/proxmox-hetzner.svg)
-  ![GitHub Forks](https://img.shields.io/github/forks/ariadata/proxmox-hetzner.svg)
+  ![GitHub Stars](https://img.shields.io/github/stars/naugul/proxmox-hetzner.svg)
+  ![GitHub Watchers](https://img.shields.io/github/watchers/naugul/proxmox-hetzner.svg)
+  ![GitHub Forks](https://img.shields.io/github/forks/naugul/proxmox-hetzner.svg)
 </div>
 
 ## 📑 Overview
@@ -26,8 +26,8 @@ This project provides an automated solution for installing Proxmox VE on Hetzner
   <h3>❤️ Love This Tool? ❤️</h3>
   <p>If this project has saved you time and effort, please consider starring it!</p>
   <p>
-    <a href="https://github.com/ariadata/proxmox-hetzner" target="_blank">
-      <img src="https://img.shields.io/github/stars/ariadata/proxmox-hetzner?style=social" alt="Star on GitHub">
+    <a href="https://github.com/naugul/proxmox-hetzner" target="_blank">
+      <img src="https://img.shields.io/github/stars/naugul/proxmox-hetzner?style=social" alt="Star on GitHub">
     </a>
   </p>
   <p><b>Every star motivates me to create more awesome tools for the community!</b></p>
@@ -55,7 +55,7 @@ This project provides an automated solution for installing Proxmox VE on Hetzner
 Execute this single command in the rescue system terminal:
 
 ```bash
-bash <(curl -sSL https://github.com/ariadata/proxmox-hetzner/raw/main/scripts/pve-install.sh)
+bash <(curl -sSL https://github.com/naugul/proxmox-hetzner/raw/main/scripts/pve-install.sh)
 ```
 
 The script will:
